@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Product {
+String name
+double price
+int quantity
+String getName()
+double getPrice()
+int getQuantity()
+void printProduct()
+ArrayList<Product> getProducts()
+}
+
+class App {
+void main()
+}
+
+App o-> Product
+
+@enduml
